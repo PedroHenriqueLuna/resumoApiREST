@@ -34,3 +34,5 @@ Alguns exemplos de códigos de status HTTP são:
 * 401 Unauthorized: indica que a requisição requer autenticação e o cliente não forneceu as credenciais necessárias.
 * 404 Not Found: indica que o recurso solicitado não foi encontrado no servidor.
 * 500 Internal Server Error: indica que o servidor encontrou um erro interno ao processar a requisição e não pôde completá-la.
+
+# ALUNO: Pedro Henrique Marques De Luna Calado - 01518089
