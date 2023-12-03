@@ -8,7 +8,7 @@ Enquanto as APIs REST seguem os princípios básicos do REST, as APIs RESTful s�
 * Clientes sem estado: as APIs RESTful devem tratar cada requisição de forma independente, sem armazenar informações sobre o estado do cliente no servidor. Isso aumenta a escalabilidade e a performance da API, pois reduz a carga no servidor.
 * Operações baseadas em recursos: as APIs RESTful devem identificar os recursos (entidades, objetos, dados) que são manipulados pela API por meio de URIs (identificadores uniformes de recursos) e usar os verbos HTTP para indicar as operações que são realizadas sobre esses recursos (GET, POST, PUT, DELETE, etc.).
 
-### HTTP verbs
+## HTTP verbs
 Os verbos HTTP são métodos que indicam a ação que o cliente deseja realizar sobre um recurso no servidor. Os verbos HTTP mais comuns usados pelas APIs REST e RESTful são:
 
 * GET: usado para solicitar a representação de um recurso, sem alterá-lo. É considerado um método seguro e idempotente, ou seja, não causa efeitos colaterais no servidor e pode ser repetido sem problemas.
@@ -16,7 +16,7 @@ Os verbos HTTP são métodos que indicam a ação que o cliente deseja realizar 
 * PUT: usado para enviar dados ao servidor para substituir um recurso existente ou criar um novo recurso, se ele não existir. É considerado um método não seguro, mas idempotente, ou seja, pode causar efeitos colaterais no servidor, mas pode ser repetido sem problemas.
 * DELETE: usado para solicitar a remoção de um recurso do servidor. É considerado um método não seguro, mas idempotente, ou seja, pode causar efeitos colaterais no servidor, mas pode ser repetido sem problemas.
 
-#### HTTP Status Code
+## HTTP Status Code
 Os códigos de status HTTP são números de três dígitos que indicam o resultado de uma requisição HTTP. Eles são divididos em cinco classes, de acordo com o primeiro dígito:
 
 * 1xx: códigos de informação, que indicam que a requisição foi recebida e está sendo processada pelo servidor.
